@@ -1,4 +1,4 @@
-body{
+/* body{
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -7,4 +7,20 @@ body{
 }
 p{
     color:rgba(173, 16, 50,1);
+} */
+ul{
+    list-style-type:square;
+    list-style-image: url(./check.png);
+    list-style-position: inside;
+}
+ol{
+    list-style-type: decimal-leading-zero;
+    text-align: center;
+    width: 50%;
+    list-style-position:inside;
+    color:cornflowerblue ;
+    line-height: 1.5;
+}
+ul li:nth-child(odd){
+    color: blueviolet;
 }
