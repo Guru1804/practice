@@ -1,0 +1,83 @@
+#hello{
+    font-size: 54px;
+    font-style: oblique;
+    color: yellowgreen;
+    border:4px solid blue;
+    transition: 0.3s;
+}
+#hello:hover{
+    color: white;
+    border: 8px dotted red;
+    transition: 0.3s;
+    background-image: url(/zd-2023-premium-learn-to-code.jpg);
+    background-attachment:local;
+    background-position: right;  
+}
+.he{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    color: slategrey;
+    background-color: crimson;
+    
+}
+h2{
+    color: aliceblue;
+    background-color: teal;
+} /*here the preference is given to the class element selector works only when the class selector is removed*/
+
+*{
+    margin: 20px;
+}/*here  also the element which are already targeted is not affected*/
+
+h1,h2{
+    color: black;
+    background-color: yellow;  /*here the properties which is not set in the class and id selector is only applying */ 
+
+}
+/*combinator selector*/
+/*Descendant selector*/
+div p{
+    font-size: 24px;
+    color: blue;/*here all the child is affected*/
+}
+/*Child selector*/
+div>p{
+    color:cadetblue;/*here the direct child is affected*/
+}
+/*Adjacent sibling selector*/
+div+p{
+    color: yellowgreen;
+    font-size: 33px;
+    background-color: blueviolet;/*selects the immediate first child after the parent element*/
+}
+/*general sibling selector*/
+div~p{
+    color: black;
+    background-color: tomato;/*selects the all the child element after the parent element */
+}
+
+/*pseudo class selector*/
+/*Anchor pseudo class selector*/
+aside a:link{
+    color: yellow;
+    background-color: royalblue;/*it is the property where the anchor tag is not visited */
+}
+aside a:active{
+    color: tomato;
+    background-color:blue;/*it is the property where the anchor tag is clicked */
+}
+aside a:visited{
+    color: blueviolet;
+    background-color: azure;/*it is the property where the anchor tag is visited*/
+}
+/*hover */
+aside h3:hover{
+    font: 800;
+    font-size: 30px;
+    font-stretch: condensed;
+    color: brown;
+    transition: 0.3s;
+    cursor: crosshair;
+    transition-delay: 0.3s;/*it is used to apply the effects is used to implement when the mouse is hovered on the particular element */
+}
+

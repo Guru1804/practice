@@ -1,0 +1,20 @@
+h1{
+    color: rgb(107, 15, 101);
+}
+#ul1{
+    border:3px ;
+    border-style: solid;
+    border-color: yellow;
+    
+}
+#ol1{
+    border:4px;
+    border-style:solid;
+    border-color: violet;
+}
+strong{
+    color: rgb(107, 15, 101);
+}
+em{
+    color:gray;
+}

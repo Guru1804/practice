@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outer{
+            background-color: rgb(21, 189, 211);
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-wrap: wrap;  
+            justify-content:space-evenly;
+            transition: 4s;
+        }
+        #outer:hover{
+            background-color: rgb(149, 63, 63);
+            width: 500px;
+            height: 500px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: 3s;
+
+        }
+        .box{
+            width: 50px;
+            height: 100px;
+            background-color: cadetblue;
+
+        }
+        #b1{
+            background-color: red;
+        }
+        #b2{
+            background-color: yellow;
+        }
+        #b3{
+            background-color: burlywood;
+
+        }
+        #b4{
+            background-color: blue;
+        }
+        #b5{
+            background-color: teal;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="b1" class="box"></div>
+        <div id="b2" class="box"></div>
+        <div class="box" id="b3"></div>
+        <div class="box" id="b4"></div>
+        <div class="box" id="b5"></div>
+    </div>
+    <img src="https://cdn.pixabay.com/photo/2015/06/22/08/38/siblings-817369_1280.jpg" alt="brother and sister" onMouseover="src='https://cdn.pixabay.com/photo/2015/06/22/08/37/children-817365_1280.jpg'">
+</body>
+</html>
