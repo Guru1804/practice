@@ -1,0 +1,17 @@
+#cd{
+    font-size: 344px;
+    text-align: center;
+    background-color: darkblue;
+    display: inline;
+    position: absolute;
+    left: 40%;
+}
+#op{
+    font-size: 250px;
+    text-align: center;
+    background-color: coral;
+    display: inline;
+    position: relative;
+    left: 60%;
+    top: 800px;
+}
