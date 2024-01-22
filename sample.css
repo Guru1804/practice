@@ -1,0 +1,38 @@
+/* h2, p {
+    width: 400px;
+    font-size: 90%;
+    line-height: 1.2em;
+    }
+h2 {
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+    }
+p {
+    min-height: 100px;
+    max-height: 300px;
+    min-width: 450px;
+    max-width: 650px;
+    } */
+    li {
+        display: inline; 
+        margin-right: 10px;
+        padding: 10px;
+        transition: 0.4s;
+        margin: 1px;
+        box-shadow: 4px 5px  rgb(0, 221, 255);
+    }
+        li.coming-soon {
+        display: none;}
+        ul{
+        display: flex;
+        flex-flow: row ;
+        justify-content:right;
+            }
+        li:hover{
+            font-size: 1rem;
+            padding: 3px;
+            margin: 1px;
+            color: black;
+            background-color: blue;
+            box-shadow: 10px 10px  rgb(0, 221, 255);
+        }

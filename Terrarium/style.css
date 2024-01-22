@@ -33,7 +33,7 @@ body {
     position: absolute;
     max-width: 150%;
     max-height: 150%;
-    z-index: 2;
+    z-index: 1;
 }
 .jar-walls {
     height: 80%;
